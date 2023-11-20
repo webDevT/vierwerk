@@ -1,0 +1,579 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #53407B;
+}
+
+.container-fluid {
+  width: 1020px;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 90vw;
+}
+
+.sub-title {
+  font-size: 24px;
+}
+
+.h2 {
+  font-size: 80px;
+  line-height: 1;
+  color: #F65C47;
+  font-family: "Lilita One", sans-serif;
+  margin-bottom: 46px;
+}
+
+.h2--60 {
+  font-size: 60px;
+}
+
+.h2--52 {
+  font-size: 52px;
+}
+
+.h3 {
+  font-size: 37px;
+  font-family: "Lilita One", sans-serif;
+  line-height: 1;
+  color: #F65C47;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #53407B;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.button:hover {
+  color: #fff;
+  background: #F65C47;
+}
+
+.button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main-screen {
+  background: #53407B;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.timer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.timer_delimetr {
+  background: #FFF3C6;
+  width: 5px;
+  height: 122px;
+  border-radius: 10px;
+}
+
+.timer-row {
+  font-size: 116px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  line-height: 0.8;
+}
+
+.timer_section {
+  width: 216px;
+  color: #fff;
+}
+
+.timer-sub-title {
+  font-size: 26px;
+  color: #F65C47;
+}
+
+.main-screen__text {
+  font-size: 55px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  color: #F65C47;
+}
+.main-screen__text span {
+  color: #FFF3C6;
+}
+
+.main-screen {
+  background-image: url("../img/bg.svg");
+  background-repeat: no-repeat;
+  background-position: top 130px center;
+  padding-bottom: 515px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+}
+
+.header {
+  z-index: 99;
+}
+
+.main-screen__wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.triangle1 {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+
+.triangle2 {
+  position: absolute;
+  top: -185px;
+  right: -209px;
+}
+
+.oliebol {
+  position: absolute;
+  bottom: 73px;
+  right: 107px;
+}
+
+.triangle3 {
+  position: absolute;
+  top: 495px;
+  left: -133px;
+}
+
+.traditions {
+  padding-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+.traditions .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.traditions__content {
+  width: 750px;
+  max-width: 100%;
+  padding-bottom: 240px;
+  background: url("../img/tr-bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right 140px;
+}
+.traditions__content p {
+  width: 680px;
+  max-width: 100%;
+}
+
+.two-col {
+  padding-top: 100px;
+  padding-bottom: 320px;
+  position: relative;
+}
+.two-col .container-fluid {
+  position: relative;
+  z-index: 1;
+  padding-top: 30px;
+}
+.two-col p {
+  width: 462px;
+  max-width: 100%;
+}
+
+.two-col .h2 {
+  margin-bottom: 0;
+}
+
+.two-col__header {
+  margin-bottom: 100px;
+}
+
+.circle-wrapper {
+  position: absolute;
+  top: -40px;
+  right: 0px;
+  overflow: hidden;
+}
+
+.circle {
+  width: 1228px;
+  height: 1228px;
+  background: #FFF3C6;
+  border-radius: 50%;
+  -webkit-transform: translateX(200px);
+      -ms-transform: translateX(200px);
+          transform: translateX(200px);
+}
+
+.two-col-img img {
+  max-width: 100%;
+}
+
+.instagram-section {
+  padding-top: 90px;
+  padding-bottom: 128px;
+}
+
+.instagram-section__header {
+  text-align: center;
+  margin-bottom: 95px;
+}
+.instagram-section__header img {
+  margin-bottom: 84px;
+}
+
+.instagram__img {
+  width: 309px;
+  max-width: 100%;
+  height: 309px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.instagram-item__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+.instagram-item {
+  margin-bottom: 37px;
+}
+
+.like-value {
+  margin-left: 6px;
+  font-size: 15px;
+}
+
+.button-wrapper--center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.items-section__wrapper {
+  background: #53407B;
+  padding-top: 333px;
+  padding-bottom: 360px;
+  -webkit-clip-path: polygon(0 11%, 100% 0, 100% 89%, 0% 100%);
+          clip-path: polygon(0 11%, 100% 0, 100% 89%, 0% 100%);
+}
+
+.items-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.line {
+  position: absolute;
+  top: -111px;
+  left: -197px;
+  z-index: 1;
+}
+
+.line2 {
+  position: absolute;
+  top: 1000px;
+  right: -350px;
+  z-index: 1;
+}
+
+.items-section__header {
+  text-align: center;
+  color: #fff;
+}
+.items-section__header .h2 {
+  margin-bottom: 0;
+}
+.items-section__header .sub-title {
+  margin-bottom: 77px;
+}
+
+.items-section .col-lg-4 {
+  margin-bottom: 56px;
+}
+.items-section .row {
+  margin-top: 100px;
+}
+
+.item {
+  background: #fff;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.item__img {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.item__button {
+  background: #F65C47;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.item__button:hover {
+  color: #53407B;
+}
+
+.item__content {
+  padding: 18px;
+}
+
+.text-15 {
+  font-size: 15px;
+}
+
+.see-more-button {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .triangle3,
+.triangle2 {
+    display: none;
+  }
+  .main-screen {
+    background-image: none;
+  }
+  .two-col__header {
+    margin-bottom: 30px;
+  }
+  .h2--60 br {
+    display: none;
+  }
+  .two-col p {
+    width: 100%;
+  }
+  .instagram__img {
+    width: 100%;
+  }
+  .instagram__img {
+    height: 40vw;
+  }
+  .items-section__wrapper {
+    -webkit-clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+            clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+  }
+}
+@media (max-width: 768px) {
+  .timer-row {
+    font-size: 17.048vw;
+  }
+  .timer-sub-title {
+    font-size: 3.817vw;
+  }
+  .timer_delimetr {
+    height: 18.066vw;
+    width: 1.272vw;
+  }
+  .main-screen__text {
+    font-size: 7.888vw;
+  }
+  .timer {
+    margin-top: 2.29vw;
+  }
+  .main-screen {
+    padding-top: 47vw;
+    padding-bottom: 50vw;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  }
+  .triangle1 {
+    width: 50vw;
+  }
+  .oliebol {
+    width: 59.288vw;
+    bottom: 2vw;
+    right: 0;
+  }
+  .traditions__content {
+    padding-bottom: 0;
+    background: none;
+  }
+  .traditions {
+    padding-top: 15vw;
+  }
+  .container-fluid {
+    width: 76.845vw;
+  }
+  .sub-title {
+    font-size: 5.344vw;
+  }
+  .h2 {
+    font-size: 13.232vw;
+    margin-bottom: 10vw;
+  }
+  body {
+    font-size: 4.58vw;
+  }
+  .button {
+    padding: 2.799vw 5.089vw;
+    margin-top: 5.852vw;
+  }
+  .h2--60 {
+    font-size: 13.232vw;
+  }
+  .circle {
+    width: 145.038vw;
+    height: 145.038vw;
+    -webkit-transform: translateX(84.733vw);
+        -ms-transform: translateX(84.733vw);
+            transform: translateX(84.733vw);
+  }
+  .two-col-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 7.634vw;
+  }
+  .two-col .h2 {
+    margin-bottom: 3vw;
+  }
+  .two-col .sub-title {
+    margin-bottom: 5vw;
+  }
+  .two-col {
+    padding-top: 25.445vw;
+    padding-bottom: 17.048vw;
+  }
+  .circle-wrapper {
+    top: -72vw;
+  }
+  .instagram-section__header img {
+    width: 100%;
+  }
+  .instagram-section {
+    padding-top: 0;
+  }
+  .instagram-section__header {
+    text-align: left;
+  }
+  .instagram-section__header {
+    margin-bottom: 19.338vw;
+  }
+  .instagram__img {
+    height: 76.336vw;
+  }
+  .instagram-item {
+    margin-bottom: 10.178vw;
+  }
+  .instagram-item__footer img {
+    width: 5.852vw;
+  }
+  .like-value {
+    font-size: 3.308vw;
+    margin-left: 2vw;
+  }
+  .instagram-section {
+    padding-bottom: 21.628vw;
+  }
+  .see-more-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #F65C47;
+    color: #fff;
+    margin-top: 5.445vw;
+    height: 12.723vw;
+  }
+  .items-section .col-lg-4 {
+    display: none;
+  }
+  .items-section .col-lg-4:first-child,
+.items-section .col-lg-4:nth-child(2),
+.items-section .col-lg-4:nth-child(3) {
+    display: block;
+  }
+  .item__img {
+    height: 56.743vw;
+  }
+  .items-section__header .h2 {
+    text-align: left;
+  }
+  .items-section p {
+    text-align: left;
+  }
+  .line2 {
+    display: none;
+  }
+  .items-section__header .sub-title {
+    margin-bottom: 17.812vw;
+  }
+  .items-section .col-lg-4 {
+    margin-bottom: 14.249vw;
+  }
+}
